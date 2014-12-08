@@ -1,0 +1,9 @@
+#
+# Ignore node modules that this application depends on
+#
+node_modules
+
+#
+# OS files
+#
+.DS_Store
