@@ -18,7 +18,7 @@ gulp.task('react', function() {
         	sourceMap: true
         }))
         .pipe(uglify())
-        .pipe(rename('app.min.js'))
+        .pipe(rename('main.js'))
         .pipe(gulp.dest('./build/js'));
 });
 

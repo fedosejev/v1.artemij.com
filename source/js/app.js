@@ -1,3 +1,6 @@
+var React = require('react');
+window.React = React; // export for http://fb.me/react-devtools
+
 var Application = React.createClass({
 	render: function() {
 		return (
