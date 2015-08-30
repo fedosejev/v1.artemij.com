@@ -1,49 +1,34 @@
 {
-  "name": "Artemij.com",
-  "version": "0.1.0",
-  "description": "Official website of Artemij Fedosejev",
-  "author": "Artemij Fedosejev",
-  "homepage": "http://artemij.com",
-  "license": "MIT",
+  "name": "artemij.com",
+  "version": "2.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/fedosejev/artemij.com.git"
   },
-  "scripts": {
-    "start": "npm run watch",
-    "watch-less": "catw --c 'lessc -' 'source/less/**/*.less' -o build/css/styles.css --verbose",
-    "watch-js": "watchify source/js/*.js --debug -v --outfile build/js/app.js",
-    "watch-html": "catw --command 'html-minifier -' 'source/index.html' -o build/index.html --verbose",
-    "watch": "npm run watch-html & npm run watch-js & npm run watch-less",
-    "build-less": "catw --c 'lessc --compress -' 'source/less/styles.less' > build/css/styles.css",
-    "build-js": "NODE_ENV=production browserify source/js/*.js --debug | uglifyjs --compress --mangle > build/js/app.js",
-    "build-html": "html-minifier source/index.html --output build/index.html --remove-comments --collapse-whitespace",
-    "build": "npm run build-html && npm run build-js && npm run build-less",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Artemij Fedosejev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fedosejev/artemij.com/issues"
   },
+  "homepage": "https://github.com/fedosejev/artemij.com",
   "devDependencies": {
-    "browserify": "^7.0.3",
-    "catw": "^0.2.0",
-    "envify": "^3.2.0",
-    "gulp": "^3.8.10",
-    "gulp-less": "^2.0.1",
-    "gulp-minify-css": "^0.3.11",
-    "gulp-react": "^2.0.0",
-    "gulp-rename": "^1.2.0",
-    "gulp-uglify": "^1.0.2",
-    "html-minifier": "^0.6.9",
-    "less": "^2.1.2",
-    "reactify": "^0.17.1",
-    "uglify-js": "^2.4.16",
-    "watchify": "^2.2.1"
+    "babelify": "^6.2.0",
+    "browserify": "^11.0.1",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-html-minifier": "^0.1.6",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "react": "^0.12.2"
-  },
-  "browserify": {
-    "transform": [
-      "reactify",
-      "envify"
-    ]
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
   }
 }
