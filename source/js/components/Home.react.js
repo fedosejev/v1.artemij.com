@@ -7,7 +7,7 @@ var Book = require('./Book.react');
 
 var containerStyle = {
   height: '100%',
-  paddingTop: '6%',
+  paddingTop: '5%',
   paddingBottom: '10px',
   textAlign: 'center'
 };
