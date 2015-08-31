@@ -7,7 +7,7 @@ var bookCoverStyle = {
 
 var containerStyle = {
   textAlign: 'center',
-  margin: '20px'
+  marginBottom: '20px'
 };
 
 var h2Style = {
@@ -16,7 +16,7 @@ var h2Style = {
   fontWeight: 600,
   fontSize: '22px',
   textTransform: 'uppercase',
-  marginBottom: '20px',
+  margin: '0 0 20px 0',
   display: 'block',
   color: '#222'
 };
