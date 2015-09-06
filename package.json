@@ -4,6 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
+    "build": "ulimit -S -n 2048 && gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
