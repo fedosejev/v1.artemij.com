@@ -6,7 +6,7 @@ var style = {
   fontWeight: 600,
   fontSize: '30px',
   textTransform: 'uppercase',
-  margin: '30px 0',
+  margin: '30px 0 20px',
   display: 'block',
   color: '#222'
 };

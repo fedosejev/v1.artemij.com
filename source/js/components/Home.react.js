@@ -4,6 +4,8 @@ var Name = require('./Name.react');
 var Photo = require('./Photo.react');
 var Navigation = require('./Navigation.react');
 var Book = require('./Book.react');
+var Drivosaurs = require('./Drivosaurs.react');
+var Artosaurs = require('./Artosaurs.react');
 
 var containerStyle = {
   height: '100%',
@@ -27,6 +29,8 @@ var Home = React.createClass({
           <div className="col-sm-6 col-md-5">
 
             <Book />
+            <Drivosaurs />
+            <Artosaurs />
 
           </div>
         </div>

@@ -7,7 +7,8 @@ var bookCoverStyle = {
 
 var containerStyle = {
   textAlign: 'center',
-  marginBottom: '20px'
+  marginTop: '80px',
+  marginBottom: '80px'
 };
 
 var h2Style = {
@@ -21,18 +22,18 @@ var h2Style = {
   color: '#222'
 };
 
-var Book = React.createClass({
+var Project = React.createClass({
 
   render: function() {
     return (
       <div style={containerStyle}>
-        <h2 style={h2Style}>Author of <a href="http://www.amazon.co.uk/books/dp/1783551623">React.js Essentials</a></h2>
-        <a href="http://www.amazon.co.uk/books/dp/1783551623">
-          <img src="/images/react_essentials_book_cover.jpg" alt="React.js Essentials book cover" style={bookCoverStyle} />
+        <h2 style={h2Style}>Photographer at <a href="http://drivosaurs.com" target="_blank">Drivosaurs</a></h2>
+        <a href="http://drivosaurs.com" target="_blank">
+          <img src="http://drivosaurs.com/photos/IMG_0780.jpg" alt="Drivosaurs photo" style={bookCoverStyle} />
         </a>
       </div>
     );
   }
 });
 
-module.exports = Book;
+module.exports = Project;
