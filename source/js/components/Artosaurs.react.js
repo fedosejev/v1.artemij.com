@@ -7,8 +7,8 @@ var bookCoverStyle = {
 
 var containerStyle = {
   textAlign: 'center',
-  marginTop: '80px',
-  marginBottom: '80px'
+  marginTop: '60px',
+  marginBottom: '60px'
 };
 
 var h2Style = {

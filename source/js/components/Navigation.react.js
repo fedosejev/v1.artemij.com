@@ -4,7 +4,7 @@ var ulStyle = {
   margin: 0,
   padding: 0,
   textAlign: 'center',
-  marginBottom: '20px'
+  marginBottom: '60px'
 };
 
 var liStyle = {
