@@ -33,7 +33,7 @@ var Navigation = React.createClass({
     return (
       <ul style={ulStyle}>
         <li style={liStyle}><a style={secondAStyle} href="http://linkedin.com/in/artemij" target="_blank">LinkedIn</a> <a style={secondAStyle} href="http://twitter.com/artemy" target="_blank">Twitter</a> <a style={secondAStyle} href="http://instagram.com/fedosejev" target="_blank">Instagram</a> <a style={secondAStyle} href="mailto:artemij.com@gmail.com" target="_blank">Email</a> <a style={secondAStyle} href="http://github.com/fedosejev" target="_blank">GitHub</a></li>
-        <li style={liStyle}><a style={secondAStyle} href="http://www.amazon.co.uk/Artemij-Fedosejev/e/B014K7AIDM" target="_blank">Amazon Author Page</a> <a style={secondAStyle} href="https://www.packtpub.com/books/info/authors/artemij-fedosejev" target="_blank">Packt Publishing Author Page</a></li>
+        <li style={liStyle}><a style={secondAStyle} href="http://www.amazon.co.uk/Artemij-Fedosejev/e/B014K7AIDM" target="_blank">Amazon Author</a> <a style={secondAStyle} href="https://www.packtpub.com/books/info/authors/artemij-fedosejev" target="_blank">Packt Publishing Author</a></li>
         <li style={liStyle}></li>
       </ul>
     );
