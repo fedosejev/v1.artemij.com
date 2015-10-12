@@ -27,7 +27,7 @@ var Artosaurs = React.createClass({
   render: function() {
     return (
       <div style={containerStyle}>
-        <h2 style={h2Style}>Photographer at <a href="http://artosaurs.com" target="_blank">Artosaurs</a></h2>
+        <h2 style={h2Style}><a href="http://artosaurs.com" target="_blank">Artosaurs</a></h2>
         <a href="http://artosaurs.com" target="_blank">
           <img src="http://artosaurs.com/photos/IMG_1056.jpg" alt="Artosaurs photo" style={bookCoverStyle} />
         </a>

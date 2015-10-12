@@ -27,7 +27,7 @@ var Project = React.createClass({
   render: function() {
     return (
       <div style={containerStyle}>
-        <h2 style={h2Style}>Photographer at <a href="http://drivosaurs.com" target="_blank">Drivosaurs</a></h2>
+        <h2 style={h2Style}><a href="http://drivosaurs.com" target="_blank">Drivosaurs</a></h2>
         <a href="http://drivosaurs.com" target="_blank">
           <img src="http://drivosaurs.com/photos/IMG_0780.jpg" alt="Drivosaurs photo" style={bookCoverStyle} />
         </a>
