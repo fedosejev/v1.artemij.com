@@ -26,7 +26,7 @@ var Book = React.createClass({
   render: function() {
     return (
       <div style={containerStyle}>
-        <h2 style={h2Style}>Author of <a href="http://www.amazon.co.uk/books/dp/1783551623">React.js Essentials</a></h2>
+        <h2 style={h2Style}><a href="http://www.amazon.co.uk/books/dp/1783551623">React.js Essentials</a></h2>
         <a href="http://www.amazon.co.uk/books/dp/1783551623">
           <img src="/images/react_essentials_book_cover.jpg" alt="React.js Essentials book cover" style={bookCoverStyle} />
         </a>
