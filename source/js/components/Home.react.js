@@ -1,5 +1,6 @@
 var React = require('react');
 
+var Headline = require('./Headline.react');
 var Name = require('./Name.react');
 var Photo = require('./Photo.react');
 var Navigation = require('./Navigation.react');
@@ -17,21 +18,24 @@ var containerStyle = {
 var Home = React.createClass({
   render: function () {
     return (
-      <div className="container" style={containerStyle}>
-        <div className="row">
-          <div className="col-sm-6 col-md-5 col-md-offset-1">
+      <div>
+        <Headline />
+        <div className="container" style={containerStyle}>
+          <div className="row">
+            <div className="col-sm-6 col-md-5 col-md-offset-1">
 
-            <Photo />
-            <Name />
-            <Navigation />
+              <Photo />
+              <Name />
+              <Navigation />
 
-          </div>
-          <div className="col-sm-6 col-md-5">
+            </div>
+            <div className="col-sm-6 col-md-5">
 
-            <Book />
-            <Drivosaurs />
-            <Artosaurs />
+              <Book />
+              <Drivosaurs />
+              <Artosaurs />
 
+            </div>
           </div>
         </div>
       </div>
