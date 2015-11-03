@@ -21,7 +21,7 @@ var h2Style = {
   color: '#222'
 };
 
-var pStyle = {
+var aStyle = {
   display: 'block',
   backgroundColor: '#ff3232',
   padding: '10px 0',
@@ -30,13 +30,14 @@ var pStyle = {
   fontWeight: '500',
   fontSize: '20px',
   color: 'white',
-  letterSpacing: '1px'
+  letterSpacing: '1px',
+  textShadow: '1px 1px 0px black'
 };
 
 var Headline = React.createClass({
   render: function() {
     return (
-      <a href="http://www.amazon.com/React-js-Essentials-Artemij-Fedosejev/dp/1783551623/" style={pStyle} className="headline">Build your first React application</a>
+      <a href="http://www.amazon.com/React-js-Essentials-Artemij-Fedosejev/dp/1783551623/" style={aStyle} className="headline">Build your first React application</a>
     );
   }
 });
