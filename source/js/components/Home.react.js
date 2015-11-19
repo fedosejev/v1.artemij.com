@@ -32,8 +32,6 @@ var Home = React.createClass({
             <div className="col-sm-6 col-md-5">
 
               <Book />
-              <Drivosaurs />
-              <Artosaurs />
 
             </div>
           </div>

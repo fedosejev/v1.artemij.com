@@ -23,7 +23,7 @@ var h2Style = {
 
 var aStyle = {
   display: 'block',
-  backgroundColor: '#ff3232',
+  backgroundColor: '#f03232',
   padding: '10px 0',
   textAlign: 'center',
   textTransform: 'uppercase',
@@ -37,7 +37,7 @@ var aStyle = {
 var Headline = React.createClass({
   render: function() {
     return (
-      <a href="http://www.amazon.com/React-js-Essentials-Artemij-Fedosejev/dp/1783551623/" style={aStyle} className="headline">Build your first React application</a>
+      <a href="http://www.amazon.com/React-js-Essentials-Artemij-Fedosejev/dp/1783551623/" style={aStyle} className="headline">Build your first React.js application</a>
     );
   }
 });
