@@ -1,9 +1,7 @@
 var React = require('react');
 
 var imageStyle = {
-  width: '200px',
-  height: '200px',
-  borderRadius: '100px'
+  height: '200px'
 };
 
 var Photo= React.createClass({
